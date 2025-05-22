@@ -1,13 +1,11 @@
 FROM node:20
 
-WORKDIR /simple_details_app
+WORKDIR /app
 
 COPY package.json ./
 RUN npm install
 
-COPY . ./simple_details_app
-
-WORKDIR /simple_details_app
+COPY . .
 
 EXPOSE 5000
 
