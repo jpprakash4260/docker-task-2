@@ -1,0 +1,24 @@
+{
+  "name": "docker-task-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jpprakash4260/docker-task-2.git"
+  },
+  "author": "Jayaprakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpprakash4260/docker-task-2/issues"
+  },
+  "homepage": "https://github.com/jpprakash4260/docker-task-2#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
